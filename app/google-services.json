@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1038040176655",
+    "project_id": "justiceapp-c167c",
+    "storage_bucket": "justiceapp-c167c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1038040176655:android:52da4dd128fc1eb527ab7a",
+        "android_client_info": {
+          "package_name": "com.example.justiceapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoP_K76qrEUlXIxEZpUCsgx04IW5nSxXQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

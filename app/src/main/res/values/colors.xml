@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4a148c</color>
+    <color name="colorPrimaryDark">#4a148c</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="buttonColor">#0793F1</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorPurple">#4a148c</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="tint">#FFA000</color>
+    <color name="pn_red">#d02129</color>
+    <color name="pn_blue">#ff19a2c6</color>
+    <color name="pn_blue_dark">#ff187998</color>
+
+    <color name="green">#ff1ce322</color>
+    <color name="grey">#ffc9c9c9</color>
+    <color name="nav_item_color">#FFFFFF</color> <!-- Color for navigation item text and icons -->
+
+    <color name="colorPrimary_Light">#ff8781</color>
+    <color name="colorPrimaryVariant_Light">#f05454</color>
+    <color name="colorOnPrimary_Light">#121212</color>
+    <color name="colorSecondary_Light">#30475e</color>
+    <color name="colorSecondaryLight_Light">#5c728b</color>
+    <color name="colorSecondaryVariant_Light">#032034</color>
+    <color name="colorBackground_Light">#F5F5F5</color>
+    <color name="back">#31363F</color>
+    <color name="nav">#EEEEEE</color>
+
+
+    <color name="background_color">#121212</color>
+
+</resources>

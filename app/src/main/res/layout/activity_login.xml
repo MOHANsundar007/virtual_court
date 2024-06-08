@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.LoginActivityy"
+    android:background="@drawable/yy">
+
+
+    <TextView
+        android:id="@+id/welcomeTitle"
+        android:layout_width="405dp"
+        android:layout_height="46dp"
+        android:background="@color/colorPrimary_Light"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Connect Here"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:text="Enter your name"
+        app:layout_constraintTop_toBottomOf="@id/welcomeTitle"
+        android:gravity="center"
+        android:padding="5dp"
+        android:textColor="@color/colorBackground_Light"
+        android:id="@+id/signInTitle"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:hint="username"
+        app:layout_constraintTop_toBottomOf="@id/signInTitle"
+        android:background="@drawable/edittext_bg"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_marginHorizontal="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="30dp"
+        android:id="@+id/username" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/enterBtn"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/username"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/round_button_send"
+        android:text="enter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/username" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
